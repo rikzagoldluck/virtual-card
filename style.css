@@ -52,6 +52,10 @@ nav a:hover {
     bottom: 50px;
     right: 0;
   }
+
+  nav h5 {
+    margin-right: 50px;
+  }
 }
 
 @media (max-width: 576px) {
