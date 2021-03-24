@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav,
+nav a {
+  text-transform: uppercase;
+  color: white;
+}
+
+nav a.active {
+  color: #475cfd;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #475cfd;
+}
+
+.main {
+  color: white;
+}
+
+.main h1 {
+  font-weight: 100;
+}
+
+.main h1 span {
+  font-weight: 600;
+  color: #475cfd;
+}
+
+.main p {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.main button {
+  background-color: #ff4887;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .bg-img {
+    position: absolute;
+    width: 50%;
+    bottom: 50px;
+    right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding-bottom: 70px;
+  }
+
+  nav,
+  nav a {
+    font-size: 10px;
+  }
+
+  nav h5 {
+    font-size: 1.1em;
+    margin-right: 5px;
+  }
+
+  .bg-img {
+    position: absolute;
+    width: 50%;
+    bottom: -20px;
+    right: 0;
+  }
+}
